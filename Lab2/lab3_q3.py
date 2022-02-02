@@ -6,7 +6,7 @@ Created on Wed Jan 19 12:49:26 2022
 """
 
 import pandas as pd
-dataset=pd.read_csv("E:\T&T\T&T\data.csv")
+dataset=pd.read_csv("E:\T&T\TnT\Lab2\data.csv")
 country_data = {}
 n = len(dataset["Country"])
 for i in range(0,n):

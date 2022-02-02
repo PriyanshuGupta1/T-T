@@ -6,7 +6,7 @@ Created on Wed Jan 19 12:39:24 2022
 """
 
 import pandas as pd
-dataset=pd.read_csv("E:\T&T\TnT\Lab2\data.csv")
+dataset=pd.read_csv("E:\T&T\T&T\data.csv")
 
 print('\nDataset:\n')
 print(dataset)
