@@ -8,6 +8,7 @@ Created on Wed Jan 19 13:43:46 2022
 
 import pandas as pd
 import numpy as np
+
 dataset=pd.read_csv("E:\T&T\TnT\Lab2\Data.csv")
 dataset['Purchased'].replace('No', 0, inplace=True)
 dataset['Purchased'].replace('Yes', 1, inplace=True)
